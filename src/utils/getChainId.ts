@@ -36,6 +36,30 @@ export function lookupScanner(chainId: number) {
         // Optimistic Kovan
         case 69: 
             return "https://kovan-optimistic.etherscan.io/address/"
+        // Binance Smart Chain
+        case 56: 
+            return "https://bscscan.com/address/"
+        // Ethereum Classic
+        case 61: 
+            return "https://blockscout.com/etc/mainnet/address/"
+        // Gnosis Chain
+        case 100: 
+            return "https://gnosisscan.io/address/"
+        // Kucoin Community Chain
+        case 321: 
+            return "https://scan.kcc.io/address/"
+        // Dogechain
+        case 2000: 
+            return "https://explorer.dogechain.dog/address/"
+        // EthereumPow
+        case 10001: 
+            return "https://www.oklink.com/en/ethw/address/"
+        // Avalanche
+        case 43114: 
+            return "https://snowtrace.io/address/"
+        // Harmony
+        case 1666600000: 
+            return "https://explorer.harmony.one/address/"
         default:
             return "" ;
     }

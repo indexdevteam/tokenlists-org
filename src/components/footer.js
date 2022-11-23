@@ -25,12 +25,11 @@ const Nav = styled.nav`
 export default function Footer() {
   return (
     <StyledFooter>
-      <span>A Uniswap Project</span>
+      <span>Maintained by Index Dev Team</span>
       <Nav>
-        <a href="https://uniswap.org/docs/v2/">Docs</a>
-        <a href="https://github.com/uniswap">GitHub</a>
-        <a href="https://discord.gg/XErMcTq">Discord</a>
-        <a href="https://app.uniswap.org">App</a>
+        <a href="https://dogelonindex/design">Docs</a>
+        <a href="https://github.com/indexdevteam">GitHub</a>
+        <a href="https://t.me/dogelonindex">Telegram</a>
       </Nav>
     </StyledFooter>
   )
