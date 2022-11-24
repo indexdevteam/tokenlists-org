@@ -78,7 +78,7 @@ export default function AllLists() {
 
   // format list data for search, using names from fetched lists if available, while falling back to hard-coded names
   const data = useMemo(
-    () => listIDs.map((listID) => ({ id: listID, name: lists[listID].list?.name ?? tokenLists[listID].name })),
+    () => listIDs.map((listID) => ({ id: listID, name: lists[listID].list.name ?? tokenLists[listID].name })),
     [lists]
   )
 
