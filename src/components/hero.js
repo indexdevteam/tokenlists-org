@@ -41,7 +41,7 @@ const Hero = styled.section`
   }
 
   .index {
-    color: #d2d2d2ff;
+    color: #1f1f1f;
     font-family: 'MatterSQ-Regular';
   }
 
@@ -69,20 +69,23 @@ const HoverLink = styled.a`
 export default function Header() {
   return (
     <Hero>
-      <span style={{ marginBottom: '1rem' }}>
+      /* <span style={{ marginBottom: '1rem' }}>
         Maintained by {' '}
         <a href="https://dogelonindex.org/" className="index">
           Dogelon Index
         </a>{' '}
-      </span>
+      </span> */
 
-      <p className="title">An ERC-20 token list standard.</p>
+      <p className="title">Our *RC-20 token lists.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Token Lists is a community-led initiative to improve discoverability, reputation and trust in ERC20 token lists
+        Token Lists is a community-led initiative to improve discoverability, reputation and trust in *RC20 token lists
         in a manner that is inclusive, transparent, and decentralized.
       </p>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
+      <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
+        Here you can find our curated token lists for Dogelon Index and Dogelon contracts.
+      </p>
+      /* <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
         {'->'} Why token lists?
       </HoverLink>
       <HoverLink
@@ -97,7 +100,7 @@ export default function Header() {
       </HoverLink>
       <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
         {'->'} Community
-      </HoverLink>
+      </HoverLink> */
     </Hero>
   )
 }

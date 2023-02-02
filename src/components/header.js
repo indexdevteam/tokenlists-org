@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 
-import logo from '../logo/color.png'
+import logo from '../logo/index-head.png'
 
 const StyledHeader = styled.header`
   display: flex;
@@ -65,7 +65,9 @@ export default function Header({ back }) {
       <Link style={{ display: 'flex', alignItems: 'center' }} to="/">
         <img width={32} src={logo} alt="logo" />
         <span className="title" style={{ marginLeft: '.5rem' }}>
-          Token Lists
+	  <a href="https://www.dogelonindex.org">
+          Dogelon Index
+	  </a>
         </span>
       </Link>
 
@@ -85,7 +87,7 @@ export default function Header({ back }) {
           className="hide-small"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/indexdevteam/token-lists#authoring-token-lists"
+          href="https://github.com/Uniswap/token-lists#authoring-token-lists"
         >
           Make a list
         </a>
@@ -94,7 +96,7 @@ export default function Header({ back }) {
           className="button"
           target="_blank"
           rel="noopener noreferrer"
-          href="https://github.com/indexdevteam/token-lists"
+          href="https://github.com/indexdevteam/tokenlists-org"
         >
           <img
             style={{
