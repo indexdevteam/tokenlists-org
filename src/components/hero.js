@@ -76,7 +76,7 @@ export default function Header() {
         in a manner that is inclusive, transparent, and decentralized.
       </p>
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
-        Here you can find our curated token lists for Dogelon Index and Dogelon contracts.
+        Here you can find our curated token lists for Dogelon Index and Dogelon Mars contracts.
       </p>
     </Hero>
   )
