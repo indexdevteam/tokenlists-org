@@ -101,9 +101,9 @@ export const ListItem = memo(function ListItem({ token }) {
                   token.address
                 )}/logo.png`
               : token.logoURI.startsWith('ipfs')
-              ? `https://ipfs.io/ipfs/${token.logoURI.split('//')[1]}`
-              : token.logoURI.startsWith('ipfs')
               ? `https://gateway.pinata.cloud/ipfs/${token.logoURI.split('//')[1]}`
+              : token.logoURI.startsWith('ipfs')
+              ? `https://ipfs.io/ipfs/${token.logoURI.split('//')[1]}`
               : token.logoURI
           }
           onError={(e) => {
