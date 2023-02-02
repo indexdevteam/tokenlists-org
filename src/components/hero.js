@@ -69,13 +69,6 @@ const HoverLink = styled.a`
 export default function Header() {
   return (
     <Hero>
-      /* <span style={{ marginBottom: '1rem' }}>
-        Maintained by {' '}
-        <a href="https://dogelonindex.org/" className="index">
-          Dogelon Index
-        </a>{' '}
-      </span> */
-
       <p className="title">Our *RC-20 token lists.</p>
 
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
@@ -85,22 +78,6 @@ export default function Header() {
       <p style={{ fontSize: '20px', lineHeight: '150%' }} className="description" id="why-lists">
         Here you can find our curated token lists for Dogelon Index and Dogelon contracts.
       </p>
-      /* <HoverLink target="_blank" rel="noopener noreferrer" href="https://uniswap.org/blog/token-lists/">
-        {'->'} Why token lists?
-      </HoverLink>
-      <HoverLink
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://github.com/indexdevteam/token-lists#authoring-token-lists"
-      >
-        {'->'} Make your own
-      </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="https://github.com/Uniswap/token-list-bridge-utils">
-        {'->'} Convert to multi-chain list
-      </HoverLink>
-      <HoverLink target="_blank" rel="noopener noreferrer" href="http://community.tokenlists.org/">
-        {'->'} Community
-      </HoverLink> */
     </Hero>
   )
 }
